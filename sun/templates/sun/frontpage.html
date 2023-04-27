@@ -1,0 +1,139 @@
+{% load static %}
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Portfolio</title>
+    <link href="https://fonts.googleapis.com/css2?family=Parisienne&display=swap" rel="stylesheet">
+    <style>
+    
+
+.nav-bar {
+        background-color: #d54d7b;
+        overflow: hidden;
+        position: fixed; /* Set the position to fixed */
+        top: 0; /* Set the top position to 0 */
+        left: 0; /* Set the left position to 0 */
+        width: 100%; /* Set the width to 100% */
+        z-index: 1000; /* Set a high z-index value to ensure the nav bar is above other elements */
+    }
+
+    /* Nav bar items styling */
+    .nav-item {
+        float: left;
+        display: block;
+        color: #f2f2f2;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+        font-size: 17px;
+    }
+
+    /* Change color on hover */
+    .nav-item:hover {
+        background-color: #ddd;
+        color: black;
+    }
+
+    /* Add a padding to the body or the main content to avoid content being hidden behind the navigation bar */
+    body {
+        padding-top: 120px; /* Adjust this value according to the height of your navigation bar */
+    }
+    
+        
+
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-image: url("{% static 'images/hi.jpg' %}");
+            background-size: cover;
+            background-position: center;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+        }
+        .container {
+            background-color: rgba(255, 255, 255, 0.8);
+            padding: 20px;
+            border-radius: 5px;
+            box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+            max-width: 800px;
+            margin: 0 auto;
+        }
+        
+        h1 {
+            text-align: center;
+            margin-bottom: 40px;
+            color: #d54d7b;
+            font-family: "Great Vibes", cursive;
+            font-size: 60px; 
+            line-height: 160px; font-weight: normal; 
+            margin-bottom: 0px; 
+            margin-top: 40px; 
+            text-align: center; 
+            text-shadow: 0 1px 1px #fff;
+
+        }
+        h2 {
+            margin-top: 20px;
+            margin-bottom: 10px;
+            color: #d54d7b;
+            
+
+        }
+        p {
+            margin-bottom: 20px;
+            font-family: "Great Vibes", cursive, bold;
+            font-size: 24px;
+        }
+
+        h3 {
+            margin-top: 20px;
+            font-family: "Great Vibes", cursive;
+            color: #000000;
+            font-size: 25px;
+            text-align: center;
+            text-shadow: 0 1px 1px #fff;
+
+        }
+    </style>
+</head>
+<body>
+    <div class="nav-bar">
+        <a href="/" class="nav-item">Home</a>
+        <a href="/posts/" class="nav-item">Posts</a>
+        <a href="/aboutme/" class="nav-item">About Me</a>
+        <a href="/add_post/" class="nav-item">Add Posts</a>
+    </div>
+    
+    <div class="guts.jpg"></div> 
+    <div class="container">
+        <h1>Good Morning</h1>
+        <h3>"Every morning is a beautiful celebration of opportunities that life has to offer. 
+            Embrace the light of a new day, for it is a chance to paint your own masterpiece on the fresh canvas of today."</h3>
+        <p>
+            
+        </p>
+
+        
+        <p>
+            The morning is a magical time of day when the world comes to life. As the sun rises and the birds begin to chirp, there is a sense of renewal and possibility in the air. To make the most of mornings, it's important to create an environment that fosters a positive and energizing atmosphere. This can be as simple as opening the blinds to let natural light in or playing uplifting music to set the tone for the day.
+
+            Establishing a consistent morning routine can also help create a sense of stability and structure in our day. This routine could include anything from exercise and meditation to a simple cup of coffee and a healthy breakfast. By prioritizing the things that matter most to us in the morning, such as spending time with loved ones or working on personal projects, we can create a sense of purpose and motivation that carries us through the day.
+            
+            Another way to make the most of mornings is to engage in the practice of writing down our thoughts and feelings. This can be a great way to clear our minds and set our intentions for the day ahead. By taking the time to reflect and process our emotions, we can start the day with a sense of clarity and focus.
+            
+            Ultimately, mornings offer a precious opportunity to start the day on the right foot and create a fulfilling and purposeful life. By embracing the beauty of the morning, cultivating a sense of purpose and motivation, and engaging in practices such as writing down our thoughts and feelings, we can make the most of each day and create a fulfilling and purposeful life.
+        </p>
+
+    
+    </div>
+</body>
+</html>
+

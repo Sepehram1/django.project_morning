@@ -1,0 +1,164 @@
+{% load static %}
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Portfolio</title>
+    <style>
+
+.nav-bar {
+            background-color: #d54d7b;
+            overflow: hidden;
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            z-index: 1000;
+        }
+
+        .nav-item {
+            float: left;
+            display: block;
+            color: #f2f2f2;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+            font-size: 17px;
+            transition: all 0.3s ease-in-out;
+        }
+
+        .nav-item:hover {
+            background-color: #fff;
+            color: #d54d7b;
+            border-radius: 5px;
+        }
+
+        /* Page content styling */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-image: url("{% static 'images/high.jpg' %}");
+            background-size: cover;
+            background-position: center;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+        }
+
+        .container {
+            background-color: rgba(255, 255, 255, 0.9);
+            padding: 40px 20px;
+            border-radius: 5px;
+            max-width: 600px;
+            width: 90%;
+            box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.2);
+        }
+
+        h1 {
+            text-align: center;
+            margin-bottom: 40px;
+            color: #d54d7b;
+            font-family: "Great Vibes", cursive;
+            font-size: 60px;
+            font-weight: normal;
+            margin-top: 0;
+            text-shadow: 0 1px 1px #fff;
+        }
+
+        h2 {
+            margin-top: 30px;
+            margin-bottom: 10px;
+            color: #d54d7b;
+            font-weight: bold;
+            font-size: 25px;
+            text-align: center;
+            text-transform: uppercase;
+        }
+
+        p {
+            margin-bottom: 15px;
+            font-family: "Open Sans", sans-serif;
+            font-size: 16px;
+            line-height: 1.6;
+            max-width: 800px;
+            margin: 0 auto;
+        }
+
+        h3 {
+            margin-top: 20px;
+            font-family: "Great Vibes", cursive;
+            color: #000000;
+            font-size: 25px;
+            text-align: center;
+            text-shadow: 0 1px 1px #fff;
+            font-weight: normal;
+        }
+
+        /* Button styling */
+        .btn {
+            display: inline-block;
+            background-color: #d54d7b;
+            color: #fff;
+            padding: 10px 20px;
+        }
+    </style>
+</head>
+<body>
+    <div class="nav-bar">
+        <a href="/" class="nav-item">Home</a>
+        <a href="/posts/" class="nav-item">Posts</a>
+        <a href="/aboutme/" class="nav-item">About Me</a>
+        <a href="/add_post/" class="nav-item">Add Posts</a>
+    </div>
+    
+    <div class="guts.jpg"></div> 
+    <div class="container">
+        <h1>Sepehr Amiri</h1>
+        <h3>"let the beauty of what you love, be what you do."
+                 
+            
+        </h3>
+        <h3>
+            - Rumi
+
+        </h3>
+        <p>
+            
+        </p>
+
+        <h2>About Me</h2>
+        <p>
+            I am a highly motivated and results-driven scholar with a passion in software development. I have developed a keen eye for detail, allowing me to excel in fast-paced, deadline-oriented environments. As a fan of chess, I am a creative problem solver, consistently leveraging my technical expertise and passion for innovation to deliver value for my clients and employers.
+
+As a team player, I thrive in collaborative settings and am adept at building and maintaining strong relationships with colleagues. I am committed to continuous learning and professional development, staying up-to-date with the latest industry trends.
+
+I am excited to bring my dedication, technical skills, and creative vision to a new challenge, making a positive impact on the company and contributing to its success.
+
+In my spare time, I enjoy spending time with my friends and family, playing music, and going to the gym. I believe that a healthy work-life balance fosters productivity and creativity, allowing me to be at my best both personally and professionally."
+        </p>
+
+        <h2>Skills</h2>
+        <p>
+            I have experience in python, django, javascript, and SQL. I am always excited to learn a new skill!
+        </p>
+
+        <h2>Contact Me</h2>
+        <p>
+            Hpjavadi3@gmail.com,
+                                                                                         
+            
+            
+        </p>
+        <p>
+            www.linkedin.com/in/sepehr-amiri-rahimi-906056178
+        </p>
+    </div>
+</body>
+</html>
+
